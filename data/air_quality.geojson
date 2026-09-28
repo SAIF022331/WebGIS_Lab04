@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "station": "Islamabad", "aqi": 62, "pm25": 18 }, "geometry": { "type": "Point", "coordinates": [73.0479, 33.6844] } },
+    { "type": "Feature", "properties": { "station": "Lahore", "aqi": 146, "pm25": 55 }, "geometry": { "type": "Point", "coordinates": [74.3587, 31.5204] } },
+    { "type": "Feature", "properties": { "station": "Karachi", "aqi": 88, "pm25": 29 }, "geometry": { "type": "Point", "coordinates": [67.0011, 24.8607] } },
+    { "type": "Feature", "properties": { "station": "Peshawar", "aqi": 113, "pm25": 38 }, "geometry": { "type": "Point", "coordinates": [71.5249, 34.0151] } },
+    { "type": "Feature", "properties": { "station": "Quetta", "aqi": 43, "pm25": 12 }, "geometry": { "type": "Point", "coordinates": [66.9750, 30.1798] } }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "station": "Murree", "rainfall": 82, "period": "Last 24 hours" }, "geometry": { "type": "Point", "coordinates": [73.3936, 33.9070] } },
+    { "type": "Feature", "properties": { "station": "Islamabad", "rainfall": 42, "period": "Last 24 hours" }, "geometry": { "type": "Point", "coordinates": [73.0479, 33.6844] } },
+    { "type": "Feature", "properties": { "station": "Lahore", "rainfall": 18, "period": "Last 24 hours" }, "geometry": { "type": "Point", "coordinates": [74.3587, 31.5204] } },
+    { "type": "Feature", "properties": { "station": "Peshawar", "rainfall": 30, "period": "Last 24 hours" }, "geometry": { "type": "Point", "coordinates": [71.5249, 34.0151] } },
+    { "type": "Feature", "properties": { "station": "Karachi", "rainfall": 7, "period": "Last 24 hours" }, "geometry": { "type": "Point", "coordinates": [67.0011, 24.8607] } },
+    { "type": "Feature", "properties": { "station": "Quetta", "rainfall": 12, "period": "Last 24 hours" }, "geometry": { "type": "Point", "coordinates": [66.9750, 30.1798] } }
+  ]
+}

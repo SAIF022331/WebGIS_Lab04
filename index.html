@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An interactive Web GIS dashboard for weather, rainfall, and air quality in Pakistan.">
+    <title>Pakistan Environmental Monitoring | Web GIS Lab 04</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div>
+            <p class="eyebrow">Web GIS Applications · Lab 04</p>
+            <h1>Pakistan Environmental Monitoring</h1>
+            <p class="subtitle">Explore current observations from weather, rainfall, and air-quality stations.</p>
+        </div>
+        <div class="header-note" aria-label="Map symbol guide">
+            <span class="status-dot"></span>
+            <span>Station observations</span>
+        </div>
+    </header>
+
+    <main>
+        <aside class="sidebar" aria-label="Map information">
+            <section>
+                <h2>How to read the map</h2>
+                <p>Use the layer button at the top right of the map to show or hide station datasets and switch basemaps.</p>
+            </section>
+            <section>
+                <h2>Map symbols</h2>
+                <div id="temperature-legend" class="legend-block"></div>
+                <div id="rainfall-legend" class="legend-block"></div>
+                <div id="aqi-legend" class="legend-block"></div>
+            </section>
+            <section class="tip">
+                <h2>Tip</h2>
+                <p>Click a station for its measured values. Larger blue circles indicate higher rainfall totals.</p>
+            </section>
+        </aside>
+        <section class="map-panel" aria-label="Interactive map of Pakistan">
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <footer>Data shown for learning and visualization purposes · BS Remote Sensing &amp; GIS</footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

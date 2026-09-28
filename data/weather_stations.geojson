@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "station": "Islamabad", "temperature": 24, "rainfall": 18 }, "geometry": { "type": "Point", "coordinates": [73.0479, 33.6844] } },
+    { "type": "Feature", "properties": { "station": "Lahore", "temperature": 31, "rainfall": 9 }, "geometry": { "type": "Point", "coordinates": [74.3587, 31.5204] } },
+    { "type": "Feature", "properties": { "station": "Karachi", "temperature": 34, "rainfall": 6 }, "geometry": { "type": "Point", "coordinates": [67.0011, 24.8607] } },
+    { "type": "Feature", "properties": { "station": "Peshawar", "temperature": 29, "rainfall": 14 }, "geometry": { "type": "Point", "coordinates": [71.5249, 34.0151] } },
+    { "type": "Feature", "properties": { "station": "Quetta", "temperature": 18, "rainfall": 4 }, "geometry": { "type": "Point", "coordinates": [66.9750, 30.1798] } }
+  ]
+}
